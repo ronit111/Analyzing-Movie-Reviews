@@ -20,3 +20,12 @@ IMDB -- the IMDB score given to the movie.
 Fandango_Stars -- the number of stars Fandango gave the movie.
 
 To make it easier to compare scores across services, the columns were normalized so their scale and rounding matched the Fandango ratings. Any column with the suffix _norm is the corresponding column changed to a 0-5 scale. For example, RT_norm takes the RottenTomatoes column and turns it into a 0-5 scale from a 0-100 scale. Any column with the suffix _round is the rounded version of another column. For example, RT_user_norm_round rounds the RT_user_norm column to the nearest .5.
+
+Here are some potential next steps:
+
+Explore the other rating services, IMDB and RottenTomatoes.
+See how they differ from each other.
+See how they differ from Fandango.
+See how user scores differ from critic scores.
+Acquire more recent review data, and see if the pattern of Fandango inflating reviews persists.
+Dig more into why certain movies had their scores inflated more than others.
